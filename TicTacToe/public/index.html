@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>TicTacToe</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">TicTacToe</a>
+  </nav>
+  
+
+  <!-- Flexbox -->
+  <div id="mainPage" class="page-container">
+    <h1 id="gameStateText" class="text-center">X's Turn</h1>
+
+    <div id="gameBoard" class="mx-auto">
+      
+        <div data-button-index="0" class="square b-right b-bottom"></div>
+        <div data-button-index="1" class="square b-left b-right b-bottom"></div>
+        <div data-button-index="2" class="square b-left b-bottom"></div>
+      
+        <div data-button-index="3" class="square b-top b-right b-bottom"></div>
+        <div data-button-index="4" class="square b-left b-top b-right b-bottom"></div>
+        <div data-button-index="5" class="square b-left b-top b-bottom"></div>
+      
+        <div data-button-index="6" class="square b-right b-top"></div>
+        <div data-button-index="7" class="square b-left b-right b-top"></div>
+        <div data-button-index="8" class="square b-left b-top"></div>
+      
+      
+        <button type="button" class="btn" id="newGameButton">New Game</button>
+      
+    </div>
+   
+    
+  
+
+  </div>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.js"></script>
+  <script src="scripts/bootstrap-material-design.js"></script>
+  <script>$("body").bootstrapMaterialDesign();</script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
