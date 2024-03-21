@@ -19,3 +19,4 @@ EXPOSE 80
 
 # run the command
 CMD ["systemctl", "start", "apache2"]
+
