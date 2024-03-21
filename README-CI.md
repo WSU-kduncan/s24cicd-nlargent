@@ -14,11 +14,12 @@
 - Windows Subsystem for Linux (WSL) was used to work with Docker Desktop. To install WSL, follow [Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 
-## How To Build An Image From The Dockerfile
+### How To Build An Image From The Dockerfile
 
 
-## How To Run The Container
+
+### How To Run The Container
 
 
-## How To View The Project Running
+### How To View The Project Running
  in the container (open a browser...go to IP and port...)
