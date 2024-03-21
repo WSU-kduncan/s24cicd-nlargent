@@ -15,11 +15,15 @@
 
 
 ### How To Build An Image From The Dockerfile
+- docker build . -t nlp4:latest
 
-
+- You can change the name of the tag if you want. If you do, make sure it matches with the next step
 
 ### How To Run The Container
+- docker run -it --name webserv -p 80:80 nlp4:latest
 
+- "-it" can be omittied if you do not want to interact with the container 
+- Also you can change the name after the --name tag
 
 ### How To View The Project Running
- in the container (open a browser...go to IP and port...)
+- Open a browser on the host, type in the address bar "localhost" without quotes and press enter.
