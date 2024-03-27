@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 # install dependencies
 RUN apt update -y
 RUN apt upgrade -y
-RUN apt install apache2 systemctl -y
+RUN apt install apache2 -y
 
 # set a directory for the app
 WORKDIR /var/www/html
@@ -18,5 +18,5 @@ COPY website/TicTacToe/public/scripts ./scripts
 EXPOSE 80
 
 # run the command
-CMD ["systemctl", "start", "apache2"]
+CMD ["/etc/init.d/apache2", "start"]
 

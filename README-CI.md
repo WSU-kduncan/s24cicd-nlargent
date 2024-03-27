@@ -20,9 +20,9 @@
 - You can change the name of the tag if you want. If you do, make sure it matches with the next step
 
 ### How To Run The Container
-- docker run -it --name webserv -p 80:80 nlp4:latest
+- docker run -d --rm --name webserv -p 80:80 nlp4:latest
 
-- "-it" can be omittied if you do not want to interact with the container 
+- "--rm" can be omittied if you do not want to remove the container after exit 
 - Also you can change the name after the --name tag
 
 ### How To View The Project Running
