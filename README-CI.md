@@ -28,6 +28,9 @@
 ### How To View The Project Running
 - Open a browser on the host, type in the address bar "localhost" without quotes and press enter.
 
+### How To Stop The Container
+- docker stop webserv
+
 
 
 
